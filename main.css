@@ -1,0 +1,18 @@
+:root {
+  --primary: #6c63ff;
+  --bg: #f5f6fa;
+  --text: #222;
+  --white: #ffffff;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* DARK MODE */
+body.dark {
+  --bg: #121212;
+  --text: #ffffff;
+  --white: #1e1e1e;
+}

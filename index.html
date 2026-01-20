@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ganesh Babu Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="layout.css">
+  <link rel="stylesheet" href="animations.css">
+</head>
+
+<body class="page">
+
+<header class="header">
+  <h1 class="header__title">GADDAM GANESH BABU</h1>
+  <button class="theme-btn" id="themeToggle">🌙</button>
+</header>
+
+<main class="layout">
+
+  <!-- HERO -->
+  <section class="hero">
+    <h2>Hello, I'm Ganesh 👋</h2>
+    <p>Beginner Web Developer</p>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section section--about" id="about">
+    <h2 class="section__title">🙋‍♂️ About Me</h2>
+    <p class="section__text">
+      I am a beginner web developer passionate about building clean,
+      responsive websites and continuously improving my frontend skills.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section--skills" id="skills">
+    <h2 class="section__title">🛠️ My Skills</h2>
+    <div class="skills">
+      <div class="skills__card">HTML5</div>
+      <div class="skills__card">CSS3</div>
+      <div class="skills__card">JavaScript (Beginner)</div>
+      <div class="skills__card">Python (Basic)</div>
+      <div class="skills__card">SQL</div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section section--projects" id="projects">
+    <h2 class="section__title">📂 Projects</h2>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>Personal portfolio built using HTML, CSS & JavaScript.</p>
+      <a href="https://www.linkedin.com/" target="_blank">
+        🔗 View My LinkedIn
+      </a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section--contact" id="contact">
+    <h2 class="section__title">📬 Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+</main>
+
+<script src="js/theme-switcher.js"></script>
+</body>
+</html>
